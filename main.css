@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tag{
+    @apply text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-full border border-[#F44335] transition-all cursor-pointer;
+}
+
+.coursetag{
+    @apply border-[1px] md:py-[12px] py-2 md:px-[20px] px-3 rounded-full bg-white hover:bg-[#00ff84] ;
+}
